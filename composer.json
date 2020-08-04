@@ -1,5 +1,6 @@
 {
     "name": "strongdonkey/iplocator",
+    "keywords": ["ipaddress", "location", "convertor"],
     "description": "A tool for Convert IP address to location",
     "type": "library",
     "require": {
