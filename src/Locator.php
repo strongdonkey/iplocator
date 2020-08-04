@@ -25,8 +25,6 @@ class Locator
             throw new \Exception('db file not found');
         }
 
-        echo $dbfile;
-
         self::$fh = fopen($dbfile, 'rb');
         self::$first = self::getLong4();
         self::$last = self::getLong4();
